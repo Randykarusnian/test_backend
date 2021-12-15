@@ -1,0 +1,5 @@
+1. clone project
+2. jalankan command 'composer install'
+3. buat file .env yang berisi dari .env.example
+4. jalankan command 'php artisan jwt:secret'
+5. jalankan command 'php artisan serve'

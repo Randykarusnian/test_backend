@@ -1,0 +1,3 @@
+1G. Menurut saya kurang, karena menurut saya seharusnya pada tabel transaction cukup menyimpan outlet_id tidak perlu merchant_id karena pada tabel outlets sudah berelasi dengan merchants.
+
+2. Menurut saya kesalahan yang dibuat ada adalah proses pengecekannya, seharusnya ketika allow_private sudah true tidak perlu ada pengecekan lagi karna semua yg trus sudah pasti diperbolehkan. ketika allow_private false baru dilakukan pengecekan lagi apakah ip sudah sesuai atau belum dengan pattern.
